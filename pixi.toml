@@ -1,0 +1,16 @@
+[project]
+authors = ["Mark Servilla <mark.servilla@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "s3ish"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.0,<3.14"
+boto3 = ">=1.35.71,<2"
+click = ">=8.1.7,<9"
+daiquiri = ">=3.0.0,<4"
+pixi-pycharm = ">=0.0.8,<0.0.9"
